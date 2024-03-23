@@ -7,6 +7,19 @@
     {
         public function index()
         {
+            
+        }
+
+        public function add()
+        {
+    
+        }
+        public function view($id = null)
+        {
+    
+        }
+        public function edit($id = null)
+        {
     
         }
     }

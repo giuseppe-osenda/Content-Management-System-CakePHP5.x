@@ -1,5 +1,4 @@
 <!-- in /templates/Users/login.php -->
-<?php $this->setLayout('default') ?>
 
 <div class="users form">
     <?= $this->Flash->render() ?>

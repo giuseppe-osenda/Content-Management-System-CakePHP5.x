@@ -4,7 +4,6 @@
  * @var \App\Model\Entity\User $user
  */
 
- $this->setLayout('CakeLte.default');
 ?>
 <div class="row">
     <aside class="column">

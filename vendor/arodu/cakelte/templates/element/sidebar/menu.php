@@ -18,7 +18,11 @@ $menu = [
             // ],
         ],
     ],
-    
+    'customPages' => [
+        'label' => __('Custom Pages'),
+        'icon' => 'fas fa-book',
+        'uri' => ['controller' => 'CustomPages', 'action' => 'index'],
+    ],    
 ];
 
 $superuser_menu = [

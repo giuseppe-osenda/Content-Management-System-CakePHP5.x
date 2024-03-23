@@ -4,7 +4,6 @@
  * @var \App\Model\Entity\Role $role
  */
 
- $this->setLayout('CakeLte.default');
 ?>
 <div class="row">
     <aside class="column">

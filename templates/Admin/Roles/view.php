@@ -3,8 +3,6 @@
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Role $role
  */
-
- $this->setLayout('CakeLte.default');
  
 ?>
 <div class="row">

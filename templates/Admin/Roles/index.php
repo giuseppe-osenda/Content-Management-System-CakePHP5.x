@@ -4,7 +4,6 @@
  * @var iterable<\App\Model\Entity\Role> $roles
  */
 
- $this->setLayout('CakeLte.default');
 ?>
 <div class="roles index content">
     <?= $this->Html->link(__('New Role'), ['action' => 'add'], ['class' => 'button float-right']) ?>

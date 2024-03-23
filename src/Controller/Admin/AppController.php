@@ -73,4 +73,10 @@ class AppController extends Controller
             $this->set(compact('user')); // Pass the user data to the view
         }
     }
+
+    public function beforeRender(EventInterface $event){
+        parent::beforeRender($event);
+
+        $this->viewBuilder()->setLayout('CakeLte.default');
+    }
 }
