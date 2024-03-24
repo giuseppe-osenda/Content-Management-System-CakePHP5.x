@@ -62,6 +62,10 @@ return function (RouteBuilder $routes): void {
          */
         $builder->connect('/customPages/*', 'CustomPages::view');
 
+        $builder->connect(
+            '/contatti',
+            ['controller' => 'CustomPages', 'action' => 'view', 2]
+        );
         /*
          * Connect catchall routes for all controllers.
          *
