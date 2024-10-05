@@ -23,6 +23,7 @@
                 <legend><?= __('Edit Custom Page') ?></legend>
                 <?php
                     echo $this->Form->control('title');
+                    echo $this->Form->control('published', ['type' => 'checkbox']);
                     echo $this->Form->control('text_1');
                     echo $this->Form->control('text_2');
                     echo $this->Form->control('text_3');

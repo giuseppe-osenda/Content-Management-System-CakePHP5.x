@@ -55,6 +55,11 @@ class CustomPagesTable extends Table
             ->maxLength('title', 255)
             ->requirePresence('title', 'create')
             ->notEmptyString('title');
+            
+        $validator
+            ->boolean('published')
+            ->requirePresence('published', 'create')
+            ->notEmptyString('published');
 
         $validator
             ->scalar('text_1')

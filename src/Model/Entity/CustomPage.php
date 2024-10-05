@@ -44,5 +44,6 @@ class CustomPage extends Entity
         'string_3' => true,
         'string_4' => true,
         'string_5' => true,
+        'published' => true,
     ];
 }
